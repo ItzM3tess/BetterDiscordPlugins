@@ -62,7 +62,7 @@ module.exports = (() => {
 				{ id: "Aaaa", name: "Aaaa", type: "switch", value: true },
 				{ id: "yahoo", name: "Yahoo!", type: "switch", value: true },
 				{ id: "yippee", name: "Yippee!", type: "switch", value: true }
-				{ id: "ez", name: "Ez4ence", type: "switch", value: true }
+				{ id: "ezence", name: "Ez4ence", type: "switch", value: true }
 			]
 		}],
 		/* Change Log */
