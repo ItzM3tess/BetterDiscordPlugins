@@ -59,7 +59,7 @@ module.exports = (() => {
 				{ id: "okiedokie", name: "Okiedokie", type: "switch", value: true },
 				{ id: "oof", name: "Oof", type: "switch", value: true },
 				{ id: "vineboom", name: "Vine Boom", type: "switch", value: true },
-				{ id: "vsauce", name: "Vsauce", type: "switch", value: false },
+				{ id: "Aaaa", name: "Aaaa", type: "switch", value: true },
 				{ id: "yahoo", name: "Yahoo!", type: "switch", value: true },
 				{ id: "yippee", name: "Yippee!", type: "switch", value: true }
 			]
@@ -148,7 +148,8 @@ module.exports = (() => {
 						{re: /🗿/gmi, file: "vineboom.mp3", duration: 1115},
 						{re: /what if/gmi, file: "vsauce.mp3", duration: 7000},
 						{re: /yahoo/gmi, file: "yahoo.mp3", duration: 930},
-						{re: /yip?pee/gmi, file: "yippee.mp3", duration: 1000}
+						{re: /yip?pee/gmi, file: "yippee.mp3", duration: 1000},
+						{re: /aaa/gmi, file: "Aaaa.mp3", duration: 1000}
 					];
 
 					let lastMessageID = null;
@@ -182,7 +183,7 @@ module.exports = (() => {
 
 								for (let sound of [...queue.entries()].sort((a, b) => a[0] - b[0])) {
 									if (this.settings.toggle[sound[1].file.replace(/\..+$/, "")]) {
-										let audio = new Audio("https://github.com/Lonk12/BetterDiscordPlugins/raw/main/MemeSounds/Sounds/" + sound[1].file);
+										let audio = new Audio("https://github.com/ItzM3tess/BetterDiscordPlugins/raw/main/MemeSounds/Sounds/" + sound[1].file);
 										audio.volume = this.settings.setting.volume;
 										audio.play();
 										await new Promise(r => setTimeout(r, sound[1].duration + this.settings.setting.delay));
