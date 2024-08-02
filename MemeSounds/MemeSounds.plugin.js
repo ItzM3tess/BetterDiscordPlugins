@@ -62,7 +62,9 @@ module.exports = (() => {
 				{ id: "Aaaa", name: "Aaaa", type: "switch", value: true },
 				{ id: "yahoo", name: "Yahoo!", type: "switch", value: true },
 				{ id: "yippee", name: "Yippee!", type: "switch", value: true },
-				{ id: "ezence", name: "Ez4ence", type: "switch", value: true }
+				{ id: "ezence", name: "Ez4ence", type: "switch", value: true },
+				{ id: "tpc", name: "Ty pičo", type: "switch", value: true }
+
 			]
 		}],
 		/* Change Log */
@@ -150,8 +152,10 @@ module.exports = (() => {
 						{re: /what if/gmi, file: "vsauce.mp3", duration: 7000},
 						{re: /yahoo/gmi, file: "yahoo.mp3", duration: 930},
 						{re: /yip?pee/gmi, file: "yippee.mp3", duration: 1000},
-						{re: /aaa/gmi, file: "Aaaa.mp3", duration: 1000}
-						{re: /ez/gmi, file: "ezence.mp3", duration: 16000}
+						{re: /aaa/gmi, file: "Aaaa.mp3", duration: 1000},
+						{re: /ez/gmi, file: "ezence.mp3", duration: 16000},
+						{re: /tpc/gmi, file: "tpc.mp3", duration: 16000}
+
 
 					];
 
