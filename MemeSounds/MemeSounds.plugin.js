@@ -62,6 +62,7 @@ module.exports = (() => {
 				{ id: "Aaaa", name: "Aaaa", type: "switch", value: true },
 				{ id: "yahoo", name: "Yahoo!", type: "switch", value: true },
 				{ id: "yippee", name: "Yippee!", type: "switch", value: true }
+				{ id: "ez", name: "Ez4ence", type: "switch", value: true }
 			]
 		}],
 		/* Change Log */
@@ -150,6 +151,8 @@ module.exports = (() => {
 						{re: /yahoo/gmi, file: "yahoo.mp3", duration: 930},
 						{re: /yip?pee/gmi, file: "yippee.mp3", duration: 1000},
 						{re: /aaa/gmi, file: "Aaaa.mp3", duration: 1000}
+						{re: /ez/gmi, file: "ez4ence.mp3", duration: 16000}
+
 					];
 
 					let lastMessageID = null;
